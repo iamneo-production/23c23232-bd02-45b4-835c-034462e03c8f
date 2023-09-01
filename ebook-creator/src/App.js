@@ -3,6 +3,7 @@ import './App.css';
 import Login from './App Components/Technical Components/Login/Login';
 import Registration from './App Components/Technical Components/Registration';
 import Canvas from './App Components/Technical Components/Canvas/Canvas';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
