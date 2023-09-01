@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { Card, Col, Row } from 'react-bootstrap'
-import ToolBox from '../Tool Box/ToolBox'
-import AddQuestion from '../../Functional Components/Add Question/AddQuestion';
-import ViewQuestion from '../../Functional Components/View Question/ViewQuestion';
-import TextBox from '../../Functional Components/Text Area/TextBox';
-import ImageBox from '../../Functional Components/Image Box/ImageBox';
+import ToolBox from '../ToolBox/ToolBox'
+import AddQuestion from '../../Functional Components/AddQuestion/AddQuestion';
+import ViewQuestion from '../../Functional Components/ViewQuestion/ViewQuestion';
+import TextBox from '../../Functional Components/TextBox/TextBox';
+import ImageBox from '../../Functional Components/ImageBox/ImageBox';
 
 const Canvas = () => {
 

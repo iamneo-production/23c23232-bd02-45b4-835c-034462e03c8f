@@ -1,33 +1,83 @@
 {
-    "users": [
-      {
-        "email": "abc@ab.ab",
-        "password": "qwe",
-        "firstName": "qew",
-        "lastName": "qwe",
-        "gender": "male",
-        "role": "Author",
-        "phone": "1231231232"
-      },
-      {
-        "id": "90dbf70d-d8be-42e5-95ad-9449541932c2",
-        "email": "a@bc.cd",
-        "password": "Abc@1234",
-        "firstName": "abc",
-        "lastName": "abc",
-        "gender": "male",
-        "role": "Publisher",
-        "phone": "1231231232"
-      },
-      {
-        "id": "56015226-57f4-4b0d-b3da-7ae75d3d9d99",
-        "email": "a@bc.cd",
-        "password": "Abc@1234",
-        "firstName": "abc",
-        "lastName": "abc",
-        "gender": "male",
-        "role": "Publisher",
-        "phone": "1231231232"
-      }
-    ]
-  }
+  "users": [
+    {
+      "email": "abc@ab.ab",
+      "password": "qwe",
+      "firstName": "qew",
+      "lastName": "qwe",
+      "gender": "male",
+      "role": "Author",
+      "phone": "1231231232"
+    },
+    {
+      "id": "90dbf70d-d8be-42e5-95ad-9449541932c2",
+      "email": "a@bc.cd",
+      "password": "Abc@1234",
+      "firstName": "abc",
+      "lastName": "abc",
+      "gender": "male",
+      "role": "Publisher",
+      "phone": "1231231232"
+    },
+    {
+      "id": "56015226-57f4-4b0d-b3da-7ae75d3d9d99",
+      "email": "a@bc.cd",
+      "password": "Abc@1234",
+      "firstName": "abc",
+      "lastName": "abc",
+      "gender": "male",
+      "role": "Publisher",
+      "phone": "1231231232"
+    },
+    {
+      "id": "eaa33eaa-3065-4819-897b-03cc457a4967",
+      "email": "abc@gmail.com",
+      "password": "Abc@1234",
+      "firstName": "abc",
+      "lastName": "abc",
+      "gender": "male",
+      "role": "Publisher",
+      "phone": "1231231232"
+    },
+    {
+      "id": "db829bf8-19a6-443b-ad3d-8441d1e59329",
+      "email": "denuwan@gmail.com",
+      "password": "Bm@123456",
+      "firstName": "Denwuan",
+      "lastName": "Bandara",
+      "gender": "male",
+      "role": "Author",
+      "phone": "0763049683"
+    },
+    {
+      "id": "41a72380-58f0-419c-99b5-8e0f5067eda6",
+      "email": "j@gmail.com",
+      "password": "Abc@1234",
+      "firstName": "jone",
+      "lastName": "jhone",
+      "gender": "male",
+      "role": "Publisher",
+      "phone": "1231231232"
+    },
+    {
+      "id": "d696b0b4-3fd3-4754-bb75-4e1e7305454a",
+      "email": "jq@gmail.com",
+      "password": "Abc@1234",
+      "firstName": "jone",
+      "lastName": "jhone",
+      "gender": "male",
+      "role": "Publisher",
+      "phone": "1231231232"
+    },
+    {
+      "id": "ae3af4cc-bccc-44f2-b930-ba70ef007516",
+      "email": "sl@gmail.com",
+      "password": "Abc@1234",
+      "firstName": "sl",
+      "lastName": "sl",
+      "gender": "male",
+      "role": "Publisher",
+      "phone": "1231231232"
+    }
+  ]
+}

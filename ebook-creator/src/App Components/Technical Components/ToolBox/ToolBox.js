@@ -1,9 +1,9 @@
 import React from 'react'
 import { Stack } from 'react-bootstrap'
-import AddQuestion from '../../Functional Components/Add Question/AddQuestion';
-import ViewQuestion from '../../Functional Components/View Question/ViewQuestion';
-import TextBox from '../../Functional Components/Text Area/TextBox';
-import ImageBox from '../../Functional Components/Image Box/ImageBox';
+import AddQuestion from '../../Functional Components/AddQuestion/AddQuestion';
+import ViewQuestion from '../../Functional Components/ViewQuestion/ViewQuestion';
+import TextBox from '../../Functional Components/TextBox/TextBox';
+import ImageBox from '../../Functional Components/ImageBox/ImageBox';
 
 const ToolBox = (props) => {
 

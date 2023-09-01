@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
-import logo from '../assesst/react-logo.png'
+import logo from '../../../assets/react-logo.png'
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
@@ -48,8 +48,10 @@ const Registration = () => {
     };
 
     const handleSubmit = async (values) => {
-        await axios.post('http://localhost:8081/api/registration', values).then(res => {
+        await axios.post('https://8081-ccbccdafaaafcecbddabfbcaceeabccd.premiumproject.examly.io/api/registration', values).then(res => {
             console.log(res.data);
+            navigate("/");
+
         })
     }
     return (

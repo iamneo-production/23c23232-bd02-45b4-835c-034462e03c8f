@@ -1,6 +1,5 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
-import bg from '../assesst/bgimg.jpg'
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
@@ -21,16 +20,14 @@ const Login = () => {
     };
     const handleSubmit = async (values) => {
         console.log(values);
-        await axios.post('http://localhost:8081/api/login', values).then(res => {
+        await axios.post('https://8081-ccbccdafaaafcecbddabfbcaceeabccd.premiumproject.examly.io/api/login', values).then(res => {
             localStorage.setItem('userrole', res.data.user.role);
             localStorage.setItem('email', res.data.user.email);
-            navigate('/dashboard')
+            navigate('/canvas')
         })
     }
     return (
         <>
-            <h2>Login Page</h2><br />
-
             <Formik
                 validationSchema={schema}
                 onSubmit={handleSubmit}
