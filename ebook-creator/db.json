@@ -1,0 +1,33 @@
+{
+    "users": [
+      {
+        "email": "abc@ab.ab",
+        "password": "qwe",
+        "firstName": "qew",
+        "lastName": "qwe",
+        "gender": "male",
+        "role": "Author",
+        "phone": "1231231232"
+      },
+      {
+        "id": "90dbf70d-d8be-42e5-95ad-9449541932c2",
+        "email": "a@bc.cd",
+        "password": "Abc@1234",
+        "firstName": "abc",
+        "lastName": "abc",
+        "gender": "male",
+        "role": "Publisher",
+        "phone": "1231231232"
+      },
+      {
+        "id": "56015226-57f4-4b0d-b3da-7ae75d3d9d99",
+        "email": "a@bc.cd",
+        "password": "Abc@1234",
+        "firstName": "abc",
+        "lastName": "abc",
+        "gender": "male",
+        "role": "Publisher",
+        "phone": "1231231232"
+      }
+    ]
+  }
